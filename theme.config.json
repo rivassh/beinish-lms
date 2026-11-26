@@ -1,0 +1,42 @@
+{
+  "site": {
+    "name": "بینش مطهر",
+    "locale": "fa",
+    "direction": "rtl"
+  },
+  "tokens": {
+    "bg": "#FFFFFF",
+    "text": "#20262A",
+    "secondary": "#52616B",
+    "border": "#DCE3E6",
+    "accent": "#34545E"
+  },
+  "nav": [
+    { "label": "home", "path": "/" },
+    { "label": "catalog", "path": "/catalog" },
+    { "label": "enrollment", "path": "/enrollment" },
+    { "label": "payment", "path": "/payment" },
+    { "label": "dashboard", "path": "/dashboard" },
+    { "label": "instructor", "path": "/instructor" }
+  ],
+  "hero": {
+    "gazePosition": "top-right",
+    "titleKey": "hero.title",
+    "subtitleKey": "hero.subtitle",
+    "ctaKey": "hero.cta",
+    "titleLabel": "بینش مطهر — LMS",
+    "subtitleLabel": "سیستم مدیریت آموزش فارسی — دوره‌ها، ثبت‌نام و داشبورد آموزشی &mdash; skeleton استاتیک.",
+    "ctaLabel": "فهرست دوره‌ها",
+    "ctaPath": "/catalog.html"
+  },
+  "locales": ["fa", "en", "ar"],
+  "pages": [
+    { "file": "home.html", "title": "pages.home.title" },
+    { "file": "catalog.html", "title": "pages.catalog.title" },
+    { "file": "course-detail.html", "title": "pages.courseDetail.title" },
+    { "file": "enrollment.html", "title": "pages.enrollment.title" },
+    { "file": "payment.html", "title": "pages.payment.title" },
+    { "file": "dashboard.html", "title": "pages.dashboard.title" },
+    { "file": "instructor.html", "title": "pages.instructor.title" }
+  ]
+}
